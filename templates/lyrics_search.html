@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</head>
+
+<body style="padding: 200px">
+<div class="ui grid">
+    <div class="two wide column">
+        <p></p>
+    </div>
+    <div class="twelve wide column">
+        <div class="ui huge header">Find Music: </div>
+        <form action="/result" method="POST">
+            <!--          <div class="ui fluid icon input">-->
+            <!--          <input name="text" placeholder="Enter Lyrics...">-->
+            <!--              <i class="search icon"></i></div>-->
+            <!--          <input class="ui secondary button" type="submit">-->
+            <div class="ui fluid action input">
+                <input name="text" placeholder="Enter Lyrics...">
+                <button class="ui button" type="submit"><i class="search icon"></i></button>
+            </div>
+        </form>
+
+    </div>
+    <div class="two wide column">
+        <p></p>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
